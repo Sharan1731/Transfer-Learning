@@ -1,3 +1,7 @@
+
+
+
+### Classification Report
 # Implementation-of-Transfer-Learning
 ## Aim
 To Implement Transfer Learning for classification using VGG-19 architecture.
@@ -95,21 +99,21 @@ def train_model(model, train_loader,test_loader,num_epochs=10):
 
 ```
 
-## OUTPUT
+Validation Loss Vs Iteration Plot
+
 ### Training Loss, Validation Loss Vs Iteration Plot
 <img width="518" height="464" alt="image" src="https://github.com/user-attachments/assets/ad99b54f-064c-4bae-bd4b-6a4c94974b32" />
-
-
 ### Classification Report
-<img width="320" height="127" alt="image" src="https://github.com/user-attachments/assets/d9dbb917-faeb-4af7-8af2-d5de8e474ca9" />
+<img width="391" height="156" alt="Screenshot 2026-03-26 230315" src="https://github.com/user-attachments/assets/03eac55b-b9fa-4b27-be78-dfa3a2d20f6f" />
 
 ### Confusion Matrix
-<img width="450" height="382" alt="image" src="https://github.com/user-attachments/assets/ecf63796-33fc-4d0c-b82d-d41124f4bb51" />
+<img width="684" height="674" alt="Screenshot 2026-03-26 225953" src="https://github.com/user-attachments/assets/0e83b228-27e4-4db2-9c4d-afaa9608b8c0" />
+
 
 
 ### New Sample Prediction
-<img width="262" height="245" alt="image" src="https://github.com/user-attachments/assets/82c4d706-39c3-479a-9918-4f697e308605" />
-<img width="219" height="249" alt="image" src="https://github.com/user-attachments/assets/ef217d43-a41c-4682-af2f-56b5a4c5e46f" />
+<img width="367" height="362" alt="Screenshot 2026-03-26 230009" src="https://github.com/user-attachments/assets/a5d17526-9635-4647-9c9d-a21790d8c9e1" />
+<img width="464" height="390" alt="Screenshot 2026-03-26 230015" src="https://github.com/user-attachments/assets/28d7d41d-1a28-4d7b-abc5-84431a1cd2a8" />
 
 ## RESULT
 The VGG-19 model was successfully trained and optimized to classify defected and non-defected capacitors.
